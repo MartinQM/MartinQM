@@ -1,4 +1,4 @@
-# This is my Blod website.
+# This is my Blog website.
 
 # Based on Hyde
 
