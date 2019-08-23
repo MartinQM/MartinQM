@@ -7,20 +7,23 @@ permalink:        pretty
 #relative_permalinks: true
 
 # Setup
-title:            Qing
-tagline:          'A Blog'
-description:      'Sking and Hard Coding. 滑雪并好好编程！'
-url:              http://hyde.getpoole.com
+title:            Qing|青
+tagline:          'A blog'
+description:      'Ski and coding. 滑雪|编程'
+url:              https://martinqingm.github.io/
 baseurl:          /
 
 author:
-  name:           'Qing Ma'
-  url:            https://github.com/MartinQingM
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
 
+
+plugins:
+  - jekyll-paginate
 paginate:         5
 
 # Custom vars
-version:          1.0.0
+version:          2.1.0
 
 github:
-  repo:           https://github.com/MartinQingM
+  repo:           https://github.com/poole/hyde

@@ -22,6 +22,8 @@ https://zhuanlan.zhihu.com/p/32246003
 压缩的时候建两个文件夹`input` `output`然后把照片和压缩代码放在`input`文件夹运行就可以了。
 需要注意只能处理.jpg 后缀的文件，.JPG后缀的文件需要改一下。我没有几张.JPG的就手动改了。
 
+这个小代码可以制作`100*100`的组图甚至更多，原作者设置了自动排列还是手动排列，非常方便。
+
 ```
 from glob import glob
 from PIL import Image
