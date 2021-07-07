@@ -6,9 +6,10 @@ profile_picture:
 ---
 
 <p>
-  Welcome! This site serves as an example for the Bay Jekyll theme. Bay is a very simple and minimal theme, directly inspired by Dan Grover's <a href="http://dangrover.com">website</a>.
+  Hello! I'm currently a master student in University of Ottawa. My interest is in image processing, computer vision and medical imaging. 
 </p>
 
 <p>
-  You can find the source code and the instructions on <a href="https://github.com/eliottvincent/bay">GitHub</a>.
+  I gown up in Tianjin, China. And move to Ottawa for my master study.
+  When not working, I like skiing, biking, hiking and kayaking. 
 </p>

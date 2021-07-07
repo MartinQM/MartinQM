@@ -1,5 +1,7 @@
 # bay
 
+This is my website folder. Using Bay theme for Jekyll.
+
 Bay is a simple theme for Jekyll. [[view live]](https://eliottvincent.github.io/bay)
 
 Inspired by [dangrover.com](http://dangrover.com/). Current theme used at [eliottvincent.com](http://eliottvincent.com/).
@@ -8,7 +10,7 @@ Inspired by [dangrover.com](http://dangrover.com/). Current theme used at [eliot
 
 ### Installation
 
-
+<!-- 
 The easiest solution is to [fork this repo](https://github.com/eliottvincent/bay/fork).
 If you want to start from a clean website, follow the steps bellow:
 
@@ -50,8 +52,8 @@ jekyll serve
 ```
 
 
-The website will look somewhat empty at first. That's normal. Follow the next instructions to complete the header and footer components, and the home and blog pages.
-
+The website will look somewhat empty at first. That's normal. Follow the next instructions to complete the header and footer components, and the home and blog pages. -->
+<!-- 
 ### Header
 Open the `_config.yml` file and add the following:
 ```yml
@@ -141,4 +143,4 @@ gem build bay_jekyll_theme.gemspec
 
 ```sh
 gem push bay_jekyll_theme-1.x.x.gem
-```
+``` -->
