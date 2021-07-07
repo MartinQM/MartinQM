@@ -8,7 +8,7 @@ Inspired by [dangrover.com](http://dangrover.com/). Current theme used at [eliot
 
 ![](/screenshot.png)
 
-### Installation
+<!-- ### Installation -->
 
 <!-- 
 The easiest solution is to [fork this repo](https://github.com/eliottvincent/bay/fork).
