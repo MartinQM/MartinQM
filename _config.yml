@@ -16,6 +16,7 @@ header:
     - name: Work
     - name: Blog
     - name: Photos
+    - name: Arts
 
 footer:
   show_powered_by: true
