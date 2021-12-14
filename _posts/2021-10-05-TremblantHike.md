@@ -4,7 +4,7 @@ title: Some fantastic scene while hiking at Mont Tremblant
 subtitle: A wonderful hiking experience in autumn in the big mountains
 categories: Outdoor
 tags: [Hiking]
-banner: /assets/images/posts/tremblantBanner.JPG
+banner: /assets/images/posts/tremblantBanner-min.JPG
 ---
 
 I start to plan for some short trips with my girlfriend while finishing up my degree. We don't want to travel too far away with the pandemic still kinds of ongoing.
@@ -22,11 +22,11 @@ The most impressive experience that I had is an off-trail part near reaching the
 
 IMG_2662.JPG
 
-<img src="/assets/images/posts/IMG_2662.JPG" alt="ridgeline" >
+<img src="/assets/images/posts/IMG_2662-min.JPG" alt="ridgeline" >
 
 We choose the shortest path to come down, not the easiest path (green and blue trail). This Grand Prix des Couleurs travels between ski slope and chair lift poles. It is very steep that sometimes you have to move in Z lines. And the knees definitely feel the pain of it. 
 
 But we saw the most beautiful scenery along the descent. It is near sunset, and the whole mountain is like in a wonderful, nature filter. 
 
-<img src="/assets/images/posts/IMG_2710.JPG" alt="autumn" >
+<img src="/assets/images/posts/IMG_2710-min.JPG" alt="autumn" >
 
