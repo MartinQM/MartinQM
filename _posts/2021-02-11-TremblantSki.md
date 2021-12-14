@@ -4,6 +4,7 @@ title: Skiiing at Mont Tremblant
 subtitle: Mont Tremblant South Side TOBOGGAN Blue Run Daily Carving
 categories: Outdoor
 tags: [Ski]
+banner: /assets/images/posts/tremblant21Feb.jpg
 
 ---
 
