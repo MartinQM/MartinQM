@@ -24,11 +24,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Qing Ma
+title: Martin (Qing) Ma
 email: martin.maqing@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Hello, welcome to my personal website
-author: GitHub User
+author: Qing Ma
 
 # Copyright setting
 # You can use any html code, currently below placeholders are available:
@@ -68,7 +68,7 @@ yat:
 # content_width: "920px"
 
 # Google analytics
-# google_analytics: [Tracking ID]
+google_analytics: [G-6FNJP6EWNQ]
 
 # If you want to generate website sitemap, you can set true
 # sitemap: false
@@ -136,7 +136,7 @@ brand_color: greenblue
 # it will be always kept on every visit (i.e. no matter
 # the browser is closed or not)
 #
-# night_mode: "auto"
+night_mode: "on"
 
 # Code badge setting
 # You can enable or disable the code badge and so on
