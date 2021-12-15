@@ -1,0 +1,2 @@
+I"ë<p>DICOM files are very common in medical imaging projects. They provide a data type that integrates the image pixel data and image information data. Pydicom is quite a convenient package to read and process DICOM files in Python.</p>
+:ET

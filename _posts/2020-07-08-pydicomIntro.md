@@ -1,12 +1,10 @@
 ---
 layout: post
 title: Processing DICOM file in Python with Pydicom
-subtitle: Mont Tremblant South Side TOBOGGAN Blue Run Daily Carving
+subtitle: 
 categories: Study
 tags: [Python, Work]
 ---
-
-# Processing DICOM file in Python with Pydicom
 
 DICOM files are very common in medical imaging projects. They provide a data type that integrates the image pixel data and image information data. Pydicom is quite a convenient package to read and process DICOM files in Python. 
 
