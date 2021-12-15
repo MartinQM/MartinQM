@@ -20,9 +20,9 @@ The trail we pick is the Grand Brule (red trail). It is a relatively long trail,
 
 The most impressive experience that I had is an off-trail part near reaching the top of the mountain. We took a straight hike up a rock maintain, and the scene is magnificent. It is a ridgeline feel but the path is wide and safe. 
 
-IMG_2662.JPG
-
 <img src="/assets/images/posts/IMG_2662-min.JPG" alt="ridgeline" >
+
+<img src="/assets/images/posts/IMG_2671-min.JPG" alt="ridgeline2" >
 
 We choose the shortest path to come down, not the easiest path (green and blue trail). This Grand Prix des Couleurs travels between ski slope and chair lift poles. It is very steep that sometimes you have to move in Z lines. And the knees definitely feel the pain of it. 
 
