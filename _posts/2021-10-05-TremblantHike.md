@@ -3,7 +3,7 @@ layout: post
 title: Some fantastic scene while hiking at Mont Tremblant
 subtitle: A wonderful hiking experience in autumn in the big mountains
 categories: Outdoor
-tags: [Hiking]
+tags: [Hiking, Life]
 banner: /assets/images/posts/tremblantBanner-min.JPG
 ---
 
