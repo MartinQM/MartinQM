@@ -5,7 +5,6 @@ subtitle: Mont Tremblant South Side TOBOGGAN Blue Run Daily Carving
 categories: Outdoor
 tags: [Ski, Life]
 banner: /assets/images/posts/tremblant21Feb.jpg
-
 ---
 
 The pandemic is getting better and my friend and I finally decided to go skiing at Mont Tremblant. 

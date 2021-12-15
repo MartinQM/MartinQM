@@ -1,0 +1,115 @@
+I"y%<h1 id="processing-dicom-file-in-python-with-pydicom">Processing DICOM file in Python with Pydicom</h1>
+
+<p>DICOM files are very common in medical imaging projects. They provide a data type that integrates the image pixel data and image information data. Pydicom is quite a convenient package to read and process DICOM files in Python.</p>
+
+<p>In this post, I will show a few simple examples, and explain a bit about the compressed pixel data issue with Pydicom.</p>
+
+<h2 id="read-and-display-a-dicom-file">Read and display a DICOM file</h2>
+
+<p>To install Pydicom, simply use:</p>
+
+<p><code class="language-plaintext highlighter-rouge">pip install pydicom</code></p>
+
+<p>Now let’s try to read some DICOM files and dispplay it.</p>
+
+<p>First we import some nessassry packages.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">pydicom</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+<span class="kn">import</span> <span class="nn">os</span>
+</code></pre></div></div>
+
+<p>Curenttly I have a local folder named <code class="language-plaintext highlighter-rouge">Patient1</code> contain some chest CT data.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">path</span> <span class="o">=</span> <span class="s">'Patient1/'</span>
+<span class="c1">#loading the DICOM file names
+</span><span class="n">files_list</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">os</span><span class="p">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">path</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="n">files_list</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>['000001.dcm', '000002.dcm', '000003.dcm', '000004.dcm', '000005.dcm', '000006.dcm', '000007.dcm', '000008.dcm', '000009.dcm', 'I0001283.dcm']
+</code></pre></div></div>
+
+<p>Now we can see there are 10 DICOM images of chest CT data in this folder.</p>
+
+<p>We can now try to read one of the image. And check what’s inside its pixel array.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">sampledicom</span> <span class="o">=</span> <span class="n">pydicom</span><span class="p">.</span><span class="n">dcmread</span><span class="p">(</span><span class="n">path</span> <span class="o">+</span> <span class="n">files_list</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<span class="n">sampledicom</span><span class="p">.</span><span class="n">pixel_array</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>array([[-2000, -2000, -2000, ..., -2000, -2000, -2000],
+       [-2000, -2000, -2000, ..., -2000, -2000, -2000],
+       [-2000, -2000, -2000, ..., -2000, -2000, -2000],
+       ...,
+       [-2000, -2000, -2000, ..., -2000, -2000, -2000],
+       [-2000, -2000, -2000, ..., -2000, -2000, -2000],
+       [-2000, -2000, -2000, ..., -2000, -2000, -2000]], dtype=int16)
+</code></pre></div></div>
+
+<p>There are a few ways to visualize the pixel_array data. One way is using the <code class="language-plaintext highlighter-rouge">matplotlib</code> package. Check out other methods <a href="https://pydicom.github.io/pydicom/stable/old/viewing_images.html">here</a>.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">plt</span><span class="p">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">sampledicom</span><span class="p">.</span><span class="n">pixel_array</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="n">plt</span><span class="p">.</span><span class="n">cm</span><span class="p">.</span><span class="n">gray</span><span class="p">)</span> 
+</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;matplotlib.image.AxesImage at 0x21ea9e50df0&gt;
+</code></pre></div></div>
+
+<p><img src="/assets/images/posts/output_9_1.png" alt="png" /></p>
+
+<h2 id="view-some-other-elements-using-pydicom">View some other elements using Pydicom</h2>
+
+<p>One benefit of DICOM files is to have pixel and medical-related information in one single file. Thus, we can access some crucial information for medical image processing from any DICOM files.</p>
+
+<p>Let’s start by looking at the meta data of a DICOM file.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">sampledicom</span><span class="p">.</span><span class="n">file_meta</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(0002, 0000) File Meta Information Group Length  UL: 206
+(0002, 0001) File Meta Information Version       OB: b'\x00\x01'
+(0002, 0002) Media Storage SOP Class UID         UI: CT Image Storage
+(0002, 0003) Media Storage SOP Instance UID      UI: 1.3.6.1.4.1.14519.5.2.1.6279.6001.278631323634593956582096991980
+(0002, 0010) Transfer Syntax UID                 UI: Explicit VR Little Endian
+(0002, 0012) Implementation Class UID            UI: 1.3.6.1.4.1.22213.1.143
+(0002, 0013) Implementation Version Name         SH: '0.5'
+(0002, 0016) Source Application Entity Title     AE: 'POSDA'
+</code></pre></div></div>
+
+<p>You can also get other information for the specific DICOM file. For example, you can get the CT image slice thickness from the DICOM file as well.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="sa">f</span><span class="s">"Slice Thickness: </span><span class="si">{</span><span class="n">sampledicom</span><span class="p">.</span><span class="n">SliceThickness</span><span class="si">}</span><span class="s">"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Slice Thickness: 1.250000
+</code></pre></div></div>
+
+<h2 id="reading-compressed-pixel-data-in-dicom-files">Reading compressed pixel data in DICOM files</h2>
+
+<p>Pixel data are normally stored in DICOM files after compression. And to be able to read more types of data, some other packages might be needed to be able to read your own DICOM files data.</p>
+
+<p>You probably noticed that in the first section, when I printed the file names. There is one file <code class="language-plaintext highlighter-rouge">I0001283.dcm</code> that is different from other files. This file is actually from another CT series, which I can compare the file  differences between two CT series.</p>
+
+<p>We can check the UID and BitsAllocated information in a few lines of codes.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">'The DICOM file we seen:'</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">sampledicom</span><span class="p">.</span><span class="n">file_meta</span><span class="p">.</span><span class="n">TransferSyntaxUID</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">sampledicom</span><span class="p">.</span><span class="n">BitsAllocated</span><span class="p">)</span>
+<span class="n">specialdicom</span> <span class="o">=</span> <span class="n">pydicom</span><span class="p">.</span><span class="n">dcmread</span><span class="p">(</span><span class="n">path</span> <span class="o">+</span> <span class="n">files_list</span><span class="p">[</span><span class="mi">9</span><span class="p">])</span>
+<span class="k">print</span><span class="p">(</span><span class="s">'The other DICOM file from another series:'</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">specialdicom</span><span class="p">.</span><span class="n">file_meta</span><span class="p">.</span><span class="n">TransferSyntaxUID</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">specialdicom</span><span class="p">.</span><span class="n">BitsAllocated</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The DICOM file we seen:
+1.2.840.10008.1.2.1
+16
+The other DICOM file from another series:
+1.2.840.10008.1.2.4.51
+16
+</code></pre></div></div>
+
+<p>You can check more details about compressed pixel data and the supported UID information on this <a href="https://pydicom.github.io/pydicom/stable/old/image_data_handlers.html">page</a>.</p>
+
+<p>We can find out that the first CT data we used is supported by pydicom without any third-party packages, which is great. But for the second file, we can see pydicom will need additional packages to be able to read the pixel information in the DICOM file.</p>
+:ET
