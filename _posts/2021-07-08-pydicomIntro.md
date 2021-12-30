@@ -2,7 +2,7 @@
 layout: post
 title: Processing DICOM file in Python with Pydicom
 subtitle: 
-categories: Study
+categories: Work
 tags: [Python, Work]
 ---
 

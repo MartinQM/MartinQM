@@ -18,7 +18,7 @@ I visited Mont Tremblant during winter for skiing. But it is the first time I vi
 
 The trail we pick is the Grand Brule (red trail). It is a relatively long trail, with lots of ups and downs. We took about 3 hours walking on this trail. 
 
-The most impressive experience that I had is an off-trail part near reaching the top of the mountain. We took a straight hike up a rock maintain, and the scene is magnificent. It is a ridgeline feel but the path is wide and safe. 
+The most impressive experience that I had is an off-trail part near reaching the top of the mountain. We took a straight hike up a rock terrain, and the scene is magnificent. It is a ridgeline feel but the path is wide and safe. 
 
 <img src="/assets/images/posts/IMG_2662-min.JPG" alt="ridgeline" >
 
@@ -26,7 +26,7 @@ The most impressive experience that I had is an off-trail part near reaching the
 
 We choose the shortest path to come down, not the easiest path (green and blue trail). This Grand Prix des Couleurs travels between ski slope and chair lift poles. It is very steep that sometimes you have to move in Z lines. And the knees definitely feel the pain of it. 
 
-But we saw the most beautiful scenery along the descent. It is near sunset, and the whole mountain is like in a wonderful, nature filter. 
+But we saw the most beautiful scenery along the descent. It is almost sunset, and the whole mountain is like in a wonderful, nature filter. 
 
 <img src="/assets/images/posts/IMG_2710-min.JPG" alt="autumn" >
 
