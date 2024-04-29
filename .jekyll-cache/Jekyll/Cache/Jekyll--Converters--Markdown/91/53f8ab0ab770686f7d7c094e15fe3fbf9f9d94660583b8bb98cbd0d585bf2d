@@ -1,0 +1,17 @@
+I"�<p>If this blog, I would like to discuss how we can delete pods and check pods phase for Kubernetes in Java.
+We could waste a lot of resouces if we don’t delete unused pods “gracefuly”.</p>
+
+<p>Here is something we can do in the Kubernetes Java client to delete a pod:</p>
+
+<pre><code class="language-Java">    // Delete by pod name
+    coreV1Api.deletePodsByName(name, k8sNameSpace)
+        .gracePeriodSeconds(5L)
+        .excute();
+    // Delete by Label
+    coreV1Api.deletePodsByLabel(k8sNameSpace)
+        .gracePeriodSeconds(5L)
+        .labelSelector("test-label")
+        .gracePeriodSeconds(5L)
+        .excute();
+</code></pre>
+:ET

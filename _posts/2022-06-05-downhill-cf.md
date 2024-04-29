@@ -25,7 +25,7 @@ I found myself catching my breath several times during the three-minute descent,
 
 <img src="/assets/images/posts/cf-mtb-feature2.jpg" alt="trailmap" width="500" height="600" >
 
-We are back at the main lodge ready for something different, we decide to try thr brain side of Camp Fortune. Our chosen trail: Social Decline, another blue route. The climb was shorter but technically demanding compared to CBC.
+We are back at the main lodge ready for something different, we decide to try thr Brian side of Camp Fortune. Our chosen trail: Social Decline, another blue route. The climb was shorter but technically demanding compared to CBC.
 We had to walk our bike for certain section of the climbing trail.
 The view on the top is nice, after catching our breath, we start our decending. Social Delcine is the only blue trail on this side, but it's also not easy.
 There are several chucky section that I have to walk my bike. And also a rock roll that is above my skill level.
