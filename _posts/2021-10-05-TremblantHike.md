@@ -7,25 +7,25 @@ tags: [Hiking, Life]
 banner: /assets/images/posts/tremblantBanner-min.JPG
 ---
 
-We started to plan for some short trips with my girlfriend while finishing up my degree. We don't want to travel too far away because of the pandemic.
+As my degree was nearing completion, my girlfriend and I began planning a series of short trips. Given the ongoing pandemic, we decided to stay relatively close to home.
 
-So one of these short trips is to Mont Tremblant. More specifically, a Hiking trip. 
-
-I visited Mont Tremblant during winter for skiing. But this is the first time I visit the mountain in non-winter-time. It is quite different, and beautiful. It is October and the autumn colour has started to emerge.
+One such excursion led us to Mont Tremblant, where we embarked on a hiking adventure. I had previously visited Mont Tremblant for a winter skiing trip,
+but this was my first experience of the mountain during the warmer months. The difference was striking and the beauty, undeniable. It was October, and the vibrant hues of autumn were just beginning to show.
 
 <img src="/assets/images/posts/TremblantHikingPart.png" alt="trailmap" width="400" height="400" >
 
-The trail we pick is the Grand Brule (red trail). It is a relatively long trail, with lots of ups and downs. We took about 3 hours walking on this trail. 
+We chose to tackle the Grand Brule, a red trail known for its length and challenging terrain. It took us about three hours to traverse the trail’s numerous ascents and descents.
 
-The most impressive experience that we had is an off-trail part near reaching the top of the mountain. We took a straight hike up on some rocky terrain, and the view is magnificent. It is a ridgeline feel but the path is wide and safe. I believe this is the area you would pass by in the winter when taking the Le Soleil chair lift.
+The highlight of our journey was an off-trail section near the mountain’s peak. We hiked straight up a rocky terrain, rewarded with a breathtaking view from the ridgeline.
+It is a ridgeline feel but the path is wide and safe. I believe this is the area you would pass by in the winter when taking the Le Soleil chair lift.
 
 <img src="/assets/images/posts/IMG_2662-min.JPG" alt="ridgeline" >
 
 <img src="/assets/images/posts/IMG_2671-min.JPG" alt="ridgeline2" >
 
-We choose the shortest path going down the mountain, not the easiest path (green and blue trail). This Grand Prix des Couleurs travels between ski slope and chair lift (TGV) poles. It is very steep that sometimes you have to move in Z lines. And the knees definitely feel the pain of it. 
+For our descent, we opted for the shortest path down the mountain, the Grand Prix des Couleurs, rather than the easiest (the green and blue trails). This path, which winds between ski slopes and TGV chair lift poles, is quite steep. At times, we had to zigzag our way down, which put a strain on our knees.
 
-But we saw the most beautiful scenery along the descent. It is almost sunset, and the whole mountain is like in a wonderful, nature filter. 
+However, the descent offered the most stunning views. As the sun began to set, the entire mountain seemed to be bathed in a beautiful, natural filter. It was a sight to behold.
 
 <img src="/assets/images/posts/IMG_2710-min.JPG" alt="autumn" >
 

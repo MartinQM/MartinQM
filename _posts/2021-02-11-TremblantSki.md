@@ -7,14 +7,15 @@ tags: [Ski, Life]
 banner: /assets/images/posts/tremblant21Feb.jpg
 ---
 
-The pandemic is getting better and my friend and I finally decided to go skiing at Mont Tremblant. 
+The skiing season had a slow start for us as the pandemic significantly impacted Ottawa. Several local ski hills could only do their best to remain open.
+However, with the improvement in the pandemic situation in 2021, my friend and I finally seized the opportunity to go skiing at Mont Tremblant.
 
-We arrived the ski resort before 9 am, which is the time they just starting operation. We enjoyed the first track of snow by waking up at 6 am and drive for one and half hours from Ottawa to Mont Tremblant.
+We arrived at the ski resort just before 9 am, right as they began operations for the day. By waking up at 6 am and driving for one and a half hours from Ottawa to Mont Tremblant, we were able to enjoy the first fresh tracks of snow.
 
-It is a cold day with -20℃. We are well equipped and are able to take a few nice videos before the Go pro battery is freezing to dead. 
+Despite the chilly -20℃ weather, we were well-prepared. We managed to capture a few impressive videos before the freezing temperatures drained our GoPro battery.
 
-Check out the video below. Some nice carving on a cold cold day. 
+Check out the video below for some excellent carving on a frosty day.
 
-Have not been skiing this intensively for some while. We both feel quite exhausted after the day, but really happy we can make the trip.
+It’s been a while since we’ve skied this intensively. We were quite exhausted by the end of the day, but immensely pleased that we could make the trip.
 
 ![](https://www.youtube.com/watch?v=ka1bl3wV0VQ&t=82s)
